@@ -62,7 +62,7 @@ Above key will generate following css code
 
 ---
 
-You can simply [install Quick Media]() on your machine.
+You can simply [install Quick Media](https://marketplace.visualstudio.com/items?itemName=YK911.quickmedia) on your machine.
 
 Or
 
