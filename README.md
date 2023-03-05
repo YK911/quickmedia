@@ -1,20 +1,18 @@
 # **Quick Media**
 
 To all the **Frontend Developers** out there, We have came up with the solution
-called "**Quick Media**" to write the media queries in more faster and convinient way than usual. As we all know, Maintaining the responsiveness of website, Sometimes we need the help of media queries. And **Quick Media** will surely help you out to achieve the same.
+called "**Quick Media**" to write the media queries in more faster and convinient way than usual. As we all know, maintaining the responsiveness of website, sometimes we need the help of media queries. And **Quick Media** will surely help you out to achieve the same.
 
 ## Features
 
 ---
 
-There are three keys this extension mainly provides.
+There are four keys this extension mainly provides.
 
 1. min-media
 1. max-media
 1. between-media
 1. retina-media
-
-The main purpose of this keys is _Specificity_.
 
 ## Overview
 
