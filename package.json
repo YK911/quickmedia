@@ -1,0 +1,41 @@
+{
+  "name": "quickmedia",
+  "displayName": "Quick Media",
+  "description": "An extension to write the media queries in short way",
+  "version": "1.0.0",
+  "publisher": "YK911",
+  "author": {
+    "name": "Yaroslav Kosytsia"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YK911/quickmedia"
+  },
+  "icon": "images/quickmedia.png",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "css",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "scss",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "sass",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "less",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
