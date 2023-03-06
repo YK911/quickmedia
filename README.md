@@ -16,6 +16,10 @@ There are four keys this extension mainly provides.
 
 ## Usage
 
+---
+
+For navigation use **TAB button**
+
 ![Quick Query](./images/quiskquery.gif)
 
 ## Overview
