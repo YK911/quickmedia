@@ -2,7 +2,7 @@
   "name": "quickmedia",
   "displayName": "Quick Media",
   "description": "An extension to write the media queries in short way",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "YK911",
   "author": {
     "name": "Yaroslav Kosytsia"

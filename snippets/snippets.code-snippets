@@ -1,27 +1,41 @@
 {
-  "minmedia": {
+  "Min media query": {
     "prefix": "min-query",
-    "body": ["@media only screen and (min-width: ${1:minwidth}px) {", "$0", "}"]
-  },
-  "maxmedia": {
-    "prefix": "max-query",
-    "body": ["@media only screen and (max-width: ${1:maxwidth}px) {", "$0", "}"]
-  },
-  "betweenmedia": {
-    "prefix": "between-query",
     "body": [
-      "@media only screen and (min-width: ${1:minwidth}px) and (max-width: ${2:maxwidth}px) {",
-      "$0",
+      "@media only screen and (min-width: ${1:minwidth}px) {",
+      "  $TM_SELECTED_TEXT {",
+      "    ${2}",
+      "  }",
       "}"
     ]
   },
-  "retinamedia": {
+  "Max media query": {
+    "prefix": "max-query",
+    "body": [
+      "@media only screen and (max-width: ${1:maxwidth}px) {",
+      "  $TM_SELECTED_TEXT {",
+      "    ${2}",
+      "  }",
+      "}"
+    ]
+  },
+  "In-between media query": {
+    "prefix": "in-query",
+    "body": [
+      "@media only screen and (min-width: ${1:minwidth}px) and (max-width: ${2:maxwidth}px) {",
+      "  $TM_SELECTED_TEXT {",
+      "    ${3}",
+      "  }",
+      "}"
+    ]
+  },
+  "Retina media query": {
     "prefix": "retina-query",
     "body": [
-      "@media only screen and (min-width: ${1:minwidth}px) {",
       "@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {",
-      "$0",
-      "}",
+      "  $TM_SELECTED_TEXT {",
+      "    ${1}",
+      "  }",
       "}"
     ]
   }

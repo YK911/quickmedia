@@ -9,50 +9,52 @@ called "**Quick Media**" to write the media queries in more faster and convinien
 
 There are four keys this extension mainly provides.
 
-1. min-media
-1. max-media
-1. between-media
-1. retina-media
+1. min-query
+1. max-query
+1. in-query
+1. retina-query
+
+## Usage
+
+![Quick Query](./images/quiskquery.gif)
 
 ## Overview
 
 ---
 
-> min-media
+> min-query
 
 ```css
-@media only screen and (min-width: 991px) {
+@media only screen and (min-width: 480px) {
   ...;
 }
 ```
 
-> max-media
+> max-query
 
 ```css
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 767px) {
   ...;
 }
 ```
 
-> between-media
+> in-query
 
 Above key will generate following css code
 
 ```css
-@media only screen and (max-width: 991px) and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   ...;
 }
 ```
 
-> retina-media
+> retina-query
 
 Above key will generate following css code
 
 ```css
-@media only screen and (min-width: 768px) {
-  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    ...;
-  }
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  ...;
 }
 ```
 
