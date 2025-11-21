@@ -57,7 +57,7 @@ Above key will generate following css code
 Above key will generate following css code
 
 ```css
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
   ...;
 }
 ```
