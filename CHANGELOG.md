@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.0.3]
+- Update Node.js version to 20 in publish workflow.
+
 ## [1.0.2]
 - Removed unsupported `sass` language contribution to fix "Unknown language" error.
 - Added dropdown for common screen sizes.
