@@ -33,5 +33,6 @@
         "path": "./snippets/snippets.code-snippets"
       }
     ]
-  }
+  },
+  "license": "MIT"
 }
