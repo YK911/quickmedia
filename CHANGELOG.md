@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.0.4]
+- Fix workflow bug.
+
 ## [1.0.3]
 - Update Node.js version to 20 in publish workflow.
 
