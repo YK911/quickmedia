@@ -2,9 +2,9 @@
   "Min media query": {
     "prefix": "min-query",
     "body": [
-      "@media only screen and (min-width: ${1:minwidth}px) {",
-      "  $TM_SELECTED_TEXT {",
-      "    ${2}",
+      "@media only screen and (min-width: ${1|480,768,1024,1280,1440|}px) {",
+      "  ${2:${TM_SELECTED_TEXT:selector}} {",
+      "    ${3}",
       "  }",
       "}"
     ]
@@ -12,9 +12,9 @@
   "Max media query": {
     "prefix": "max-query",
     "body": [
-      "@media only screen and (max-width: ${1:maxwidth}px) {",
-      "  $TM_SELECTED_TEXT {",
-      "    ${2}",
+      "@media only screen and (max-width: ${1|479.98,767.98,1023.98,1279.98,1439.98|}px) {",
+      "  ${2:${TM_SELECTED_TEXT:selector}} {",
+      "    ${3}",
       "  }",
       "}"
     ]
@@ -32,9 +32,9 @@
   "Retina media query": {
     "prefix": "retina-query",
     "body": [
-      "@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {",
-      "  $TM_SELECTED_TEXT {",
-      "    ${1}",
+      "@media (min-resolution: 192dpi), (min-resolution: 2dppx) {",
+      "  ${1:${TM_SELECTED_TEXT:selector}} {",
+      "    ${2}",
       "  }",
       "}"
     ]
